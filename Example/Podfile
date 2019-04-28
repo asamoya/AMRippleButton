@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AMRippleButton_Example' do
+  pod 'AMRippleButton', :path => '../'
+
+  target 'AMRippleButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
