@@ -1,0 +1,16 @@
+PODS:
+  - AMRippleButton (0.1.0)
+
+DEPENDENCIES:
+  - AMRippleButton (from `../`)
+
+EXTERNAL SOURCES:
+  AMRippleButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AMRippleButton: 757a1e177797712036c3ffbd1860336884b71bb1
+
+PODFILE CHECKSUM: 43db6df25a53afb3b0b1aad179209d59664ff199
+
+COCOAPODS: 1.6.1

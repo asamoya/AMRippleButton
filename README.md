@@ -1,6 +1,5 @@
-# AMRippleButton
+# AMRippleButton (under construction)
 
-[![CI Status](https://img.shields.io/travis/asamoya/AMRippleButton.svg?style=flat)](https://travis-ci.org/asamoya/AMRippleButton)
 [![Version](https://img.shields.io/cocoapods/v/AMRippleButton.svg?style=flat)](https://cocoapods.org/pods/AMRippleButton)
 [![License](https://img.shields.io/cocoapods/l/AMRippleButton.svg?style=flat)](https://cocoapods.org/pods/AMRippleButton)
 [![Platform](https://img.shields.io/cocoapods/p/AMRippleButton.svg?style=flat)](https://cocoapods.org/pods/AMRippleButton)
@@ -22,7 +21,7 @@ pod 'AMRippleButton'
 
 ## Author
 
-asamoya, kaname.ohara@gmail.com
+kaname ohara, kaname.ohara@gmail.com
 
 ## License
 

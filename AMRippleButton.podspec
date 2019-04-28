@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRippleButton'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of AMRippleButton.'
+  s.summary          = 'Ripple effect button for iOS.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,18 +18,20 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Simple and easy, ripple effect button for iOS.
+You can set border line and corner radius to the UIButton instance.
+No swift-coding is required, because it's accessible from storyboard or xib.
                        DESC
 
   s.homepage         = 'https://github.com/asamoya/AMRippleButton'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'asamoya' => 'kaname.ohara@gmail.com' }
+  s.author           = { 'kaname ohara' => 'kaname.ohara@gmail.com' }
   s.source           = { :git => 'https://github.com/asamoya/AMRippleButton.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
-
+  s.ios.deployment_target = '10.0'
+  s.swift_version = '4.0'
   s.source_files = 'AMRippleButton/Classes/**/*'
   
   # s.resource_bundles = {

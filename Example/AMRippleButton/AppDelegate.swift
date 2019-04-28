@@ -1,9 +1,5 @@
 //
-//  AppDelegate.swift
-//  AMRippleButton
-//
-//  Created by asamoya on 04/28/2019.
-//  Copyright (c) 2019 asamoya. All rights reserved.
+//  Copyright (c) 2019 kaname surya. All rights reserved.
 //
 
 import UIKit
