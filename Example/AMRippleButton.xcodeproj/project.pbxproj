@@ -14,6 +14,8 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		9FA3E4254AD8AF8C250F4A9B /* Pods_AMRippleButton_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60A15A9231B3ED75D526B8E0 /* Pods_AMRippleButton_Tests.framework */; };
 		E14E5AFB22759710008DE910 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E14E5AFA22759710008DE910 /* Launch Screen.storyboard */; };
+		E1BE9B112275ADD300345FE8 /* screenrecord.gif in Resources */ = {isa = PBXBuildFile; fileRef = E1BE9B0F2275ADD300345FE8 /* screenrecord.gif */; };
+		E1BE9B122275ADD300345FE8 /* tutorial.gif in Resources */ = {isa = PBXBuildFile; fileRef = E1BE9B102275ADD300345FE8 /* tutorial.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 		9CDCD4C70FCE8C20A439EDA9 /* Pods_AMRippleButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMRippleButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C037D0FF872F673DED2D2A81 /* Pods-AMRippleButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMRippleButton_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AMRippleButton_Tests/Pods-AMRippleButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E14E5AFA22759710008DE910 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		E1BE9B0F2275ADD300345FE8 /* screenrecord.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = screenrecord.gif; sourceTree = "<group>"; };
+		E1BE9B102275ADD300345FE8 /* tutorial.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tutorial.gif; sourceTree = "<group>"; };
 		E4F940033D256FB454238AE7 /* Pods-AMRippleButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMRippleButton_Example.release.xcconfig"; path = "Target Support Files/Pods-AMRippleButton_Example/Pods-AMRippleButton_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FDE15E730E740FED862EDD0B /* AMRippleButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AMRippleButton.podspec; path = ../AMRippleButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
@@ -91,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
+				E1BE9B0A2275A4B100345FE8 /* ScreenShots */,
 				607FACD21AFB9204008FA782 /* Example for AMRippleButton */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
@@ -154,6 +159,16 @@
 				34E2BA8C6AAE2FD42F47C457 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		E1BE9B0A2275A4B100345FE8 /* ScreenShots */ = {
+			isa = PBXGroup;
+			children = (
+				E1BE9B0F2275ADD300345FE8 /* screenrecord.gif */,
+				E1BE9B102275ADD300345FE8 /* tutorial.gif */,
+			);
+			name = ScreenShots;
+			path = ../ScreenShots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,9 +257,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1BE9B122275ADD300345FE8 /* tutorial.gif in Resources */,
 				E14E5AFB22759710008DE910 /* Launch Screen.storyboard in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				E1BE9B112275ADD300345FE8 /* screenrecord.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
