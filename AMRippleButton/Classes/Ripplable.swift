@@ -7,9 +7,9 @@ import UIKit
 /// ripple effect. Please add @IBDesignable
 public protocol Ripplable: UIButton {
     
-    /// Please add @IBInspectable annotation and set default value
-    var rippleColor: UIColor { get set }
-    
+    /// Please add @IBInspectable annotation
+    var rippleColor: UIColor? { get set }
+
     /// call this method @UIResponder # touchesBegan()
     ///
     /// - Parameter touches: touches
@@ -25,16 +25,23 @@ public extension Ripplable {
 
     func touchDown(touches: Set<UITouch>) {
         guard let point = touches.first?.location(in: self) else { return }
-        
+
         clipsToBounds = true
         
         if let rippleLayer = findRippleLayer() {
             //already rippled -> remove previous one
             rippleLayer.removeFromSuperlayer()
         }
-        
+
+        // default rippleColor is tintColor
+        let color = self.rippleColor==nil ? tintColor! : rippleColor!
+
+        if color.cgColor.alpha < 0.25 {
+            return
+        }
+
         let rippleLayer = RippleLayer()
-        rippleLayer.fillColor = rippleColor.withAlphaComponent(0.15).cgColor
+        rippleLayer.fillColor = color.withAlphaComponent(0.15).cgColor
         rippleLayer.frame = bounds
         layer.addSublayer(rippleLayer)
         rippleLayer.startRipple(point: point)

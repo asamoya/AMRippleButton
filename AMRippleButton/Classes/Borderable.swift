@@ -6,7 +6,7 @@ import UIKit
 
 /// Protocol to add border to UIButton
 public protocol Borderable: UIButton {
-    
+
     /// color of border line
     /// set as stored property and didset {layer.borderColor = borderColor.cgColor}
     var borderColor: UIColor { get set }

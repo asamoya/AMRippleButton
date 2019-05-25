@@ -29,14 +29,17 @@ it, simply add the following line to your Podfile:
 pod 'AMRippleButton'
 ```
 
-## How to use
+## Usage
 
 #### in case of Storyboard
 ![how to use](/ScreenShots/tutorial.gif)
 
 - First, make UIButton instance at your storyboard.
 - Then enter class name as "RippleButton" at Identity Inspector.
-- Now you can enter Ripple color, Border width, Border color and Corner radius at Attributes Inspector.
+- That's all.
+
+- Optionally, you can enter Ripple color, Border width, Border color and Corner radius at Attributes inspector.
+- Your button's tint color will be used as ripple color unless you  specify. 
 
 #### in case of Swift coding
 

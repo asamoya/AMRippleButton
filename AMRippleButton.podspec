@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AMRippleButton'
-  s.version          = '0.1.0'
-  s.summary          = 'Ripple effect button for iOS.'
+  s.version          = '0.1.1'
+  s.summary          = 'Ripple effect button for iOS written in Swift.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 Simple and easy, ripple effect button for iOS.
+Written in Swift 5.0.
 You can set border line and corner radius to the UIButton instance.
 No swift-coding is required, because it's accessible from storyboard or xib.
                        DESC
@@ -31,7 +32,7 @@ No swift-coding is required, because it's accessible from storyboard or xib.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
-  s.swift_version = '4.0'
+  s.swift_version = '5.0'
   s.source_files = 'AMRippleButton/Classes/**/*'
   
   # s.resource_bundles = {

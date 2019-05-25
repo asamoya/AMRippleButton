@@ -55,8 +55,7 @@ class RippleLayer: CAShapeLayer {
         scaleAnim.keyPath = "transform.scale"
         scaleAnim.fromValue = kRippleStartingScale
         scaleAnim.toValue = 1
-        //scaleAnim.timingFunction = CAMediaTimingFunction(name: .default)
-        scaleAnim.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionDefault)
+        scaleAnim.timingFunction = CAMediaTimingFunction(name: .default)
 
         let centerPath = UIBezierPath()
         let startPoint = point
@@ -70,16 +69,14 @@ class RippleLayer: CAShapeLayer {
         positionAnim.path = centerPath.cgPath
         positionAnim.keyTimes = [0, 1]
         positionAnim.values = [0, 1]
-        //positionAnim.timingFunction = CAMediaTimingFunction(name: .default)
-        positionAnim.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)
+        positionAnim.timingFunction = CAMediaTimingFunction(name: .default)
 
         let fadeInAnim = CABasicAnimation()
         fadeInAnim.keyPath = "opacity"
         fadeInAnim.fromValue = 0
         fadeInAnim.toValue = 1
         fadeInAnim.duration = CFTimeInterval(kRippleFadeInDuration)
-        //fadeInAnim.timingFunction = CAMediaTimingFunction(name: .linear)
-        fadeInAnim.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)
+        fadeInAnim.timingFunction = CAMediaTimingFunction(name: .linear)
 
         CATransaction.begin()
         let animGroup = CAAnimationGroup()
@@ -120,8 +117,7 @@ class RippleLayer: CAShapeLayer {
         fadeOutAnim.fromValue = 1
         fadeOutAnim.toValue = 0
         fadeOutAnim.duration = kRippleFadeOutDuration
-        //fadeOutAnim.timingFunction = CAMediaTimingFunction(name: .linear)
-        fadeOutAnim.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)
+        fadeOutAnim.timingFunction = CAMediaTimingFunction(name: .linear)
 
         CATransaction.begin()
         let animGroup = CAAnimationGroup()
