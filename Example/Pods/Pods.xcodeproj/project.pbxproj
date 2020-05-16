@@ -7,188 +7,184 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13CDFDCCFDE4A564AAA58926C82BBC6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		295F23A73C52099E3E8185E3F92EAA6B /* Pods-AMRippleButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 359DD34BD1A8A58A41E571648D6E1F5A /* Pods-AMRippleButton_Example-dummy.m */; };
-		51C1E45D396E5E9715DDC6508DCF82A4 /* RippleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED3BF4356FFB9D8CCBC27E8776435AD /* RippleButton.swift */; };
-		6248AB762D437473237C222AD5132F57 /* AMRippleButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8C08A9768C4DE8033282320E914AB1 /* AMRippleButton-dummy.m */; };
-		6321E15DB6FF5C133D2012B626E5CD0B /* Borderable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDD13D7C67BF5FB513E13BECEF37F69 /* Borderable.swift */; };
-		685484A2787D16774E076446809F4D61 /* Pods-AMRippleButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4AF3F190400484E06DDC72F4DAEC51 /* Pods-AMRippleButton_Tests-dummy.m */; };
-		776769C0A7553E33E5F549DF47093783 /* AMRippleButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C504DE8AFDF75F518F3B2CC25C8F13A /* AMRippleButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7DA31C85F7D9CC0F08A3638B9C1BFF96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		83767C8498C2FDFDBDF7244A4E01C276 /* Pods-AMRippleButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A6AB76F5BB41F284436AC7FB710AA4D /* Pods-AMRippleButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		871EA8541CAE46DFCEFBFBBEA6DB3280 /* Pods-AMRippleButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11731D9AE15B072E174B0411F9D04667 /* Pods-AMRippleButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AB56AFBF12A982D738387A4BE8E610D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		CEAAC83E66868CD68C5A7D90838F298E /* RippleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6FBEAD56E4AF85E77F0D699D35164C /* RippleLayer.swift */; };
-		F1C3154DD1A9B9E25FF187BD5A67940E /* Ripplable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360B6F8E62C0AAA3048B376057E74AFE /* Ripplable.swift */; };
+		0C9EB77C6288948D79A2F082CC3B2842 /* Pods-AMRippleButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50A5C866145CB36C0D2B32C1E8FA85A2 /* Pods-AMRippleButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CC17B291E59934E4FF6EADC4DFDD4BB /* Pods-AMRippleButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 594A80E8C0272CEC1431BD56B5319298 /* Pods-AMRippleButton_Example-dummy.m */; };
+		17D70ED99C05D1F82224AA41876541E3 /* UIView+Designable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432BBB6E125C6BD36ECFF3554B8B2F4A /* UIView+Designable.swift */; };
+		3860E81A6FFF8C0BCC4C2F76AEF8231D /* Pods-AMRippleButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 884E7EDC318CA4C26C1AC0142FC44904 /* Pods-AMRippleButton_Tests-dummy.m */; };
+		54A69E9D92C7FC32259ECEFAE17D9C76 /* RippleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6452A184F96742770D5EDCD9DC786CE9 /* RippleButton.swift */; };
+		63685EF07D704026CA0B3B2634639A3F /* AMRippleButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD864A2E84FE796083F4A6843ED8DC8A /* AMRippleButton-dummy.m */; };
+		6634626EAE215DAAA10B1896C5165A7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		93EDC7AF7EA777911091CE8946E969F8 /* AMRippleButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31687E30CD9E9E2F4D2BB171F0D52FC2 /* AMRippleButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		987BC3688DBBE993ED6EE7F330C7FA7F /* Ripplable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8588976C37B8FB2491AFA96CE82531ED /* Ripplable.swift */; };
+		9E081AFC9E5901F94D6B116AC8E154C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A956BAF90D2134B7692948EAC42E5B4A /* Pods-AMRippleButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 379282938CA8C28852F1767EC696C31D /* Pods-AMRippleButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBF28199F937E293A7C22F9075E91A2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FF1404A62FBBD71B3D25EB1BD69FF32F /* RippleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16BCAF9BD5A880E88F0A27882BAEA61 /* RippleLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D5A4F242847349ACC9E09D314921F528 /* PBXContainerItemProxy */ = {
+		8767552380116C46C78FA9DE607673FE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 45811E3B2BFBE23E757A3A3AD4696C4B;
+			remoteGlobalIDString = 858CF735BEFDA9FBD8B516F72685B615;
 			remoteInfo = AMRippleButton;
 		};
-		E37CBFBC4C3F0ACD8C2E35C1874C45E2 /* PBXContainerItemProxy */ = {
+		DD6093C5FD9802E30D77CD4AD5A0AA47 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B51CBF12954C1A6DFDFB1258D38BEC74;
+			remoteGlobalIDString = 2533FBD5F749647D598437B94E774D7F;
 			remoteInfo = "Pods-AMRippleButton_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06BE64CDFE7E629EE9387089CAB0946A /* Pods-AMRippleButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMRippleButton_Example.release.xcconfig"; sourceTree = "<group>"; };
-		0A6AB76F5BB41F284436AC7FB710AA4D /* Pods-AMRippleButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AMRippleButton_Tests-umbrella.h"; sourceTree = "<group>"; };
-		0B87604BC0B7B4032B5672E2D39D5CDA /* AMRippleButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMRippleButton.xcconfig; sourceTree = "<group>"; };
-		11731D9AE15B072E174B0411F9D04667 /* Pods-AMRippleButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AMRippleButton_Example-umbrella.h"; sourceTree = "<group>"; };
-		195B40FB87B78B920176A2D0AFD0216E /* Pods_AMRippleButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMRippleButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A85759C516B9425979BDB0B7C2C0443 /* Pods-AMRippleButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AMRippleButton_Tests.modulemap"; sourceTree = "<group>"; };
-		279851BF085D0A4867C65AC55B3E751D /* Pods-AMRippleButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AMRippleButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2ED3BF4356FFB9D8CCBC27E8776435AD /* RippleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RippleButton.swift; path = AMRippleButton/Classes/RippleButton.swift; sourceTree = "<group>"; };
-		2EDD13D7C67BF5FB513E13BECEF37F69 /* Borderable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Borderable.swift; path = AMRippleButton/Classes/Borderable.swift; sourceTree = "<group>"; };
-		359DD34BD1A8A58A41E571648D6E1F5A /* Pods-AMRippleButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AMRippleButton_Example-dummy.m"; sourceTree = "<group>"; };
-		35B63D2E20A1B94E375FADC9E80FB494 /* AMRippleButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMRippleButton-Info.plist"; sourceTree = "<group>"; };
-		360B6F8E62C0AAA3048B376057E74AFE /* Ripplable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Ripplable.swift; path = AMRippleButton/Classes/Ripplable.swift; sourceTree = "<group>"; };
-		5033096BEE1835F1E53EEDD661E607C8 /* AMRippleButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMRippleButton.modulemap; sourceTree = "<group>"; };
-		5BF4111E599E88AA96F9B5D2CE42F78A /* Pods-AMRippleButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AMRippleButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5F5AF701238EA2DCFE7649373D0DEF26 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		6962B08FFF55CD80C8AE3038A0B74960 /* Pods-AMRippleButton_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AMRippleButton_Example-Info.plist"; sourceTree = "<group>"; };
-		6B6FBEAD56E4AF85E77F0D699D35164C /* RippleLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RippleLayer.swift; path = AMRippleButton/Classes/RippleLayer.swift; sourceTree = "<group>"; };
-		7D54478F1B8E07A7C96B68AAF68F16E9 /* Pods-AMRippleButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMRippleButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		898C259FDDB8CE5D3155CA2E7106C9E1 /* Pods-AMRippleButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AMRippleButton_Example-frameworks.sh"; sourceTree = "<group>"; };
-		8A806924243B0B18054C5CA31CEB78A1 /* Pods-AMRippleButton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AMRippleButton_Tests-Info.plist"; sourceTree = "<group>"; };
-		8A879B488818E11A02E11B24CEFF66DB /* Pods_AMRippleButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMRippleButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C504DE8AFDF75F518F3B2CC25C8F13A /* AMRippleButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMRippleButton-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A377B31588663CBBE5450E6BDFA48D6A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		B5F6F94940376C95E5EBD9F8CD539A25 /* Pods-AMRippleButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AMRippleButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B641E7240898BAE9F0CA703680EF9D24 /* Pods-AMRippleButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AMRippleButton_Example.modulemap"; sourceTree = "<group>"; };
-		B6CAEE66AD06125B0ED7C0B3873192C3 /* AMRippleButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMRippleButton-prefix.pch"; sourceTree = "<group>"; };
-		C8B9F8FA3C8D87896C7C517C12B2A26A /* Pods-AMRippleButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMRippleButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D48916A7AD84AF099CACC131F78CDFD0 /* Pods-AMRippleButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMRippleButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D7E990E9E38FA06BAFBE0637FDE52FF4 /* Pods-AMRippleButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AMRippleButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		DB7203E9166699B9567829D50B2104B6 /* AMRippleButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AMRippleButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		EA8C08A9768C4DE8033282320E914AB1 /* AMRippleButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMRippleButton-dummy.m"; sourceTree = "<group>"; };
-		EE4AF3F190400484E06DDC72F4DAEC51 /* Pods-AMRippleButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AMRippleButton_Tests-dummy.m"; sourceTree = "<group>"; };
-		F5B569E9C3CEF9991177C47619656103 /* AMRippleButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AMRippleButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0658B0EB650006E714FEE88C2FFB78BF /* Pods-AMRippleButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMRippleButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0B4E06621C749A0A23850E7E2430715F /* AMRippleButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMRippleButton-Info.plist"; sourceTree = "<group>"; };
+		175C049C5F0E27902C351B09131F63E7 /* AMRippleButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMRippleButton.debug.xcconfig; sourceTree = "<group>"; };
+		2F5394AC0D405258ACBD15B009A73430 /* Pods-AMRippleButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMRippleButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		31687E30CD9E9E2F4D2BB171F0D52FC2 /* AMRippleButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMRippleButton-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		379282938CA8C28852F1767EC696C31D /* Pods-AMRippleButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AMRippleButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		3F49EB2FF3C552D63F70596BF9E5A4C2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		432BBB6E125C6BD36ECFF3554B8B2F4A /* UIView+Designable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Designable.swift"; path = "AMRippleButton/Classes/UIView+Designable.swift"; sourceTree = "<group>"; };
+		50A5C866145CB36C0D2B32C1E8FA85A2 /* Pods-AMRippleButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AMRippleButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		58BC3E7F8773C57635BACBEEDB74B0D1 /* AMRippleButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMRippleButton.release.xcconfig; sourceTree = "<group>"; };
+		594A80E8C0272CEC1431BD56B5319298 /* Pods-AMRippleButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AMRippleButton_Example-dummy.m"; sourceTree = "<group>"; };
+		5B0DB75CE56053B822BAB40C0B2B069C /* Pods-AMRippleButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AMRippleButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5FF9858FE913905EB4C7C36A53C1DE35 /* Pods_AMRippleButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AMRippleButton_Tests.framework; path = "Pods-AMRippleButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6452A184F96742770D5EDCD9DC786CE9 /* RippleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RippleButton.swift; path = AMRippleButton/Classes/RippleButton.swift; sourceTree = "<group>"; };
+		66F3C0873C56B2E95547CC9F5C35ACB7 /* AMRippleButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMRippleButton-prefix.pch"; sourceTree = "<group>"; };
+		7A5A26E52DAD13E72967E396B85E30BE /* Pods_AMRippleButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AMRippleButton_Example.framework; path = "Pods-AMRippleButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E29D3359C1489142E0CC129757D5B17 /* AMRippleButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMRippleButton.modulemap; sourceTree = "<group>"; };
+		7E7FC5DD7021905571921BEA063E6C2A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8588976C37B8FB2491AFA96CE82531ED /* Ripplable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Ripplable.swift; path = AMRippleButton/Classes/Ripplable.swift; sourceTree = "<group>"; };
+		884E7EDC318CA4C26C1AC0142FC44904 /* Pods-AMRippleButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AMRippleButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		88BD2205D5A54FBEE0EF1C6C13ADC18A /* Pods-AMRippleButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMRippleButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8F11B5D5FD4CC5EF6EE447A3F81C0F41 /* Pods-AMRippleButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AMRippleButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F21841A4EBE97B9C3C404014AA2127B /* Pods-AMRippleButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMRippleButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA50C20D26F1844F2EF71CA74E4243BA /* Pods-AMRippleButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AMRippleButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BD864A2E84FE796083F4A6843ED8DC8A /* AMRippleButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMRippleButton-dummy.m"; sourceTree = "<group>"; };
+		C1F96A7104F1E0B3DFDBF735222EF1AF /* Pods-AMRippleButton_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AMRippleButton_Example-Info.plist"; sourceTree = "<group>"; };
+		C658A95A3DCAFDE02D58D5CE5CEE3DC1 /* AMRippleButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AMRippleButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DA9663EDB73CBCB139CE93F35D07FA2F /* Pods-AMRippleButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AMRippleButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E2A67F0FCA65992123730447E9F0BFA4 /* AMRippleButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AMRippleButton.framework; path = AMRippleButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2B36217407C3BA516279A791C624D2C /* Pods-AMRippleButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AMRippleButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EC92BF5D1034AA94CD6BC85FBA2F72AB /* Pods-AMRippleButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AMRippleButton_Tests.modulemap"; sourceTree = "<group>"; };
+		F16BCAF9BD5A880E88F0A27882BAEA61 /* RippleLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RippleLayer.swift; path = AMRippleButton/Classes/RippleLayer.swift; sourceTree = "<group>"; };
+		F485C484FAEAD299CF107F4B2CCB1EBE /* Pods-AMRippleButton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AMRippleButton_Tests-Info.plist"; sourceTree = "<group>"; };
+		FF16E90A67A5D7DEEA2DF73844E2F98A /* Pods-AMRippleButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AMRippleButton_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7DD252BB93D7B3C696C4F886BC536206 /* Frameworks */ = {
+		0F381F0A8F5825AE3BBBB77190E1C3B0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DA31C85F7D9CC0F08A3638B9C1BFF96 /* Foundation.framework in Frameworks */,
+				9E081AFC9E5901F94D6B116AC8E154C3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D1178DB947E55FE170DC9278CC16C03 /* Frameworks */ = {
+		7B86D997795CF6AC4130874498E0F61D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13CDFDCCFDE4A564AAA58926C82BBC6E /* Foundation.framework in Frameworks */,
+				6634626EAE215DAAA10B1896C5165A7E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB195EB72A21E9CB5007FD27F85C9D25 /* Frameworks */ = {
+		B9C281767F5B1DA70173FE1AF4430D67 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB56AFBF12A982D738387A4BE8E610D1 /* Foundation.framework in Frameworks */,
+				EBF28199F937E293A7C22F9075E91A2B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05D4A0E0F158DAFF52BA5F6FB189DA88 /* Pods-AMRippleButton_Example */ = {
+		13814D021A77C521F7B085AAB63CFFE9 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B641E7240898BAE9F0CA703680EF9D24 /* Pods-AMRippleButton_Example.modulemap */,
-				279851BF085D0A4867C65AC55B3E751D /* Pods-AMRippleButton_Example-acknowledgements.markdown */,
-				D7E990E9E38FA06BAFBE0637FDE52FF4 /* Pods-AMRippleButton_Example-acknowledgements.plist */,
-				359DD34BD1A8A58A41E571648D6E1F5A /* Pods-AMRippleButton_Example-dummy.m */,
-				898C259FDDB8CE5D3155CA2E7106C9E1 /* Pods-AMRippleButton_Example-frameworks.sh */,
-				6962B08FFF55CD80C8AE3038A0B74960 /* Pods-AMRippleButton_Example-Info.plist */,
-				11731D9AE15B072E174B0411F9D04667 /* Pods-AMRippleButton_Example-umbrella.h */,
-				C8B9F8FA3C8D87896C7C517C12B2A26A /* Pods-AMRippleButton_Example.debug.xcconfig */,
-				06BE64CDFE7E629EE9387089CAB0946A /* Pods-AMRippleButton_Example.release.xcconfig */,
+				C658A95A3DCAFDE02D58D5CE5CEE3DC1 /* AMRippleButton.podspec */,
+				3F49EB2FF3C552D63F70596BF9E5A4C2 /* LICENSE */,
+				7E7FC5DD7021905571921BEA063E6C2A /* README.md */,
 			);
-			name = "Pods-AMRippleButton_Example";
-			path = "Target Support Files/Pods-AMRippleButton_Example";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		13F7EA7094CF1F6DA97DF43D0F67F61F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C0A3507C8D9C7DE51B2F713FD532786F /* AMRippleButton */,
+				35C130B01C476E7B513C69948433BFED /* AMRippleButton */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		1C6E3E7C0AD442481AE6DC43A069D5FC /* Pods-AMRippleButton_Tests */ = {
+		35C130B01C476E7B513C69948433BFED /* AMRippleButton */ = {
 			isa = PBXGroup;
 			children = (
-				1A85759C516B9425979BDB0B7C2C0443 /* Pods-AMRippleButton_Tests.modulemap */,
-				5BF4111E599E88AA96F9B5D2CE42F78A /* Pods-AMRippleButton_Tests-acknowledgements.markdown */,
-				B5F6F94940376C95E5EBD9F8CD539A25 /* Pods-AMRippleButton_Tests-acknowledgements.plist */,
-				EE4AF3F190400484E06DDC72F4DAEC51 /* Pods-AMRippleButton_Tests-dummy.m */,
-				8A806924243B0B18054C5CA31CEB78A1 /* Pods-AMRippleButton_Tests-Info.plist */,
-				0A6AB76F5BB41F284436AC7FB710AA4D /* Pods-AMRippleButton_Tests-umbrella.h */,
-				7D54478F1B8E07A7C96B68AAF68F16E9 /* Pods-AMRippleButton_Tests.debug.xcconfig */,
-				D48916A7AD84AF099CACC131F78CDFD0 /* Pods-AMRippleButton_Tests.release.xcconfig */,
+				8588976C37B8FB2491AFA96CE82531ED /* Ripplable.swift */,
+				6452A184F96742770D5EDCD9DC786CE9 /* RippleButton.swift */,
+				F16BCAF9BD5A880E88F0A27882BAEA61 /* RippleLayer.swift */,
+				432BBB6E125C6BD36ECFF3554B8B2F4A /* UIView+Designable.swift */,
+				13814D021A77C521F7B085AAB63CFFE9 /* Pod */,
+				5B28743EEE5156962758C8004ECDB301 /* Support Files */,
 			);
-			name = "Pods-AMRippleButton_Tests";
-			path = "Target Support Files/Pods-AMRippleButton_Tests";
+			name = AMRippleButton;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		57C4426EF22875F80ED7ACD88A950C65 /* Support Files */ = {
+		5B28743EEE5156962758C8004ECDB301 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5033096BEE1835F1E53EEDD661E607C8 /* AMRippleButton.modulemap */,
-				0B87604BC0B7B4032B5672E2D39D5CDA /* AMRippleButton.xcconfig */,
-				EA8C08A9768C4DE8033282320E914AB1 /* AMRippleButton-dummy.m */,
-				35B63D2E20A1B94E375FADC9E80FB494 /* AMRippleButton-Info.plist */,
-				B6CAEE66AD06125B0ED7C0B3873192C3 /* AMRippleButton-prefix.pch */,
-				8C504DE8AFDF75F518F3B2CC25C8F13A /* AMRippleButton-umbrella.h */,
+				7E29D3359C1489142E0CC129757D5B17 /* AMRippleButton.modulemap */,
+				BD864A2E84FE796083F4A6843ED8DC8A /* AMRippleButton-dummy.m */,
+				0B4E06621C749A0A23850E7E2430715F /* AMRippleButton-Info.plist */,
+				66F3C0873C56B2E95547CC9F5C35ACB7 /* AMRippleButton-prefix.pch */,
+				31687E30CD9E9E2F4D2BB171F0D52FC2 /* AMRippleButton-umbrella.h */,
+				175C049C5F0E27902C351B09131F63E7 /* AMRippleButton.debug.xcconfig */,
+				58BC3E7F8773C57635BACBEEDB74B0D1 /* AMRippleButton.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/AMRippleButton";
 			sourceTree = "<group>";
 		};
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		A5AA4484E73CC511B6E55913C807B6B0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				05D4A0E0F158DAFF52BA5F6FB189DA88 /* Pods-AMRippleButton_Example */,
-				1C6E3E7C0AD442481AE6DC43A069D5FC /* Pods-AMRippleButton_Tests */,
+				C656334A7F581EACD7DCC61D929F2207 /* Pods-AMRippleButton_Example */,
+				E1F2A4313D0443169230FF6489012CC6 /* Pods-AMRippleButton_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C0A3507C8D9C7DE51B2F713FD532786F /* AMRippleButton */ = {
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				2EDD13D7C67BF5FB513E13BECEF37F69 /* Borderable.swift */,
-				360B6F8E62C0AAA3048B376057E74AFE /* Ripplable.swift */,
-				2ED3BF4356FFB9D8CCBC27E8776435AD /* RippleButton.swift */,
-				6B6FBEAD56E4AF85E77F0D699D35164C /* RippleLayer.swift */,
-				D5E11EBE5ECE6C6B7C71670E244C97BA /* Pod */,
-				57C4426EF22875F80ED7ACD88A950C65 /* Support Files */,
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
-			name = AMRippleButton;
-			path = ../..;
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C656334A7F581EACD7DCC61D929F2207 /* Pods-AMRippleButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FF16E90A67A5D7DEEA2DF73844E2F98A /* Pods-AMRippleButton_Example.modulemap */,
+				DA9663EDB73CBCB139CE93F35D07FA2F /* Pods-AMRippleButton_Example-acknowledgements.markdown */,
+				BA50C20D26F1844F2EF71CA74E4243BA /* Pods-AMRippleButton_Example-acknowledgements.plist */,
+				594A80E8C0272CEC1431BD56B5319298 /* Pods-AMRippleButton_Example-dummy.m */,
+				5B0DB75CE56053B822BAB40C0B2B069C /* Pods-AMRippleButton_Example-frameworks.sh */,
+				C1F96A7104F1E0B3DFDBF735222EF1AF /* Pods-AMRippleButton_Example-Info.plist */,
+				379282938CA8C28852F1767EC696C31D /* Pods-AMRippleButton_Example-umbrella.h */,
+				0658B0EB650006E714FEE88C2FFB78BF /* Pods-AMRippleButton_Example.debug.xcconfig */,
+				2F5394AC0D405258ACBD15B009A73430 /* Pods-AMRippleButton_Example.release.xcconfig */,
+			);
+			name = "Pods-AMRippleButton_Example";
+			path = "Target Support Files/Pods-AMRippleButton_Example";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -205,27 +201,33 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D5E11EBE5ECE6C6B7C71670E244C97BA /* Pod */ = {
+		E1F2A4313D0443169230FF6489012CC6 /* Pods-AMRippleButton_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				DB7203E9166699B9567829D50B2104B6 /* AMRippleButton.podspec */,
-				5F5AF701238EA2DCFE7649373D0DEF26 /* LICENSE */,
-				A377B31588663CBBE5450E6BDFA48D6A /* README.md */,
+				EC92BF5D1034AA94CD6BC85FBA2F72AB /* Pods-AMRippleButton_Tests.modulemap */,
+				E2B36217407C3BA516279A791C624D2C /* Pods-AMRippleButton_Tests-acknowledgements.markdown */,
+				8F11B5D5FD4CC5EF6EE447A3F81C0F41 /* Pods-AMRippleButton_Tests-acknowledgements.plist */,
+				884E7EDC318CA4C26C1AC0142FC44904 /* Pods-AMRippleButton_Tests-dummy.m */,
+				F485C484FAEAD299CF107F4B2CCB1EBE /* Pods-AMRippleButton_Tests-Info.plist */,
+				50A5C866145CB36C0D2B32C1E8FA85A2 /* Pods-AMRippleButton_Tests-umbrella.h */,
+				9F21841A4EBE97B9C3C404014AA2127B /* Pods-AMRippleButton_Tests.debug.xcconfig */,
+				88BD2205D5A54FBEE0EF1C6C13ADC18A /* Pods-AMRippleButton_Tests.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Pods-AMRippleButton_Tests";
+			path = "Target Support Files/Pods-AMRippleButton_Tests";
 			sourceTree = "<group>";
 		};
 		E4400B70B19954C2E12359A2FBA9DD2C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F5B569E9C3CEF9991177C47619656103 /* AMRippleButton.framework */,
-				8A879B488818E11A02E11B24CEFF66DB /* Pods_AMRippleButton_Example.framework */,
-				195B40FB87B78B920176A2D0AFD0216E /* Pods_AMRippleButton_Tests.framework */,
+				E2A67F0FCA65992123730447E9F0BFA4 /* AMRippleButton.framework */,
+				7A5A26E52DAD13E72967E396B85E30BE /* Pods_AMRippleButton_Example.framework */,
+				5FF9858FE913905EB4C7C36A53C1DE35 /* Pods_AMRippleButton_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -233,41 +235,60 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		CAAA3848036CE37434F838BF3A917A78 /* Headers */ = {
+		161C301FA15559877967137C7E336E0A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83767C8498C2FDFDBDF7244A4E01C276 /* Pods-AMRippleButton_Tests-umbrella.h in Headers */,
+				A956BAF90D2134B7692948EAC42E5B4A /* Pods-AMRippleButton_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D8A8A72062B7424B04052B4E671F41BA /* Headers */ = {
+		418BD6935D600BF7037AD6DE91468AEB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				776769C0A7553E33E5F549DF47093783 /* AMRippleButton-umbrella.h in Headers */,
+				0C9EB77C6288948D79A2F082CC3B2842 /* Pods-AMRippleButton_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1F9C5B6F5C21FCE91109C7E2DEFDD54 /* Headers */ = {
+		8C493B35216B36B7A68A82F095187FAD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				871EA8541CAE46DFCEFBFBBEA6DB3280 /* Pods-AMRippleButton_Example-umbrella.h in Headers */,
+				93EDC7AF7EA777911091CE8946E969F8 /* AMRippleButton-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		45811E3B2BFBE23E757A3A3AD4696C4B /* AMRippleButton */ = {
+		2533FBD5F749647D598437B94E774D7F /* Pods-AMRippleButton_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 248EA4E40281DBD58C0DC38E49E5580C /* Build configuration list for PBXNativeTarget "AMRippleButton" */;
+			buildConfigurationList = 80B8729C511F8416842F55512D827B8E /* Build configuration list for PBXNativeTarget "Pods-AMRippleButton_Example" */;
 			buildPhases = (
-				D8A8A72062B7424B04052B4E671F41BA /* Headers */,
-				7CE3AE6654CEF39907D0A8253686FF1E /* Sources */,
-				8D1178DB947E55FE170DC9278CC16C03 /* Frameworks */,
-				A6E2EB5644A271D7D4491D4C535ED0CA /* Resources */,
+				161C301FA15559877967137C7E336E0A /* Headers */,
+				D3DA40E7961E713885922771A4206AE6 /* Sources */,
+				B9C281767F5B1DA70173FE1AF4430D67 /* Frameworks */,
+				EDEDC6E153C6DE44DE7921950DC0A771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E02CB34C4887F95CDB2C0FE205D525E8 /* PBXTargetDependency */,
+			);
+			name = "Pods-AMRippleButton_Example";
+			productName = "Pods-AMRippleButton_Example";
+			productReference = 7A5A26E52DAD13E72967E396B85E30BE /* Pods_AMRippleButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		858CF735BEFDA9FBD8B516F72685B615 /* AMRippleButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 619301E58A39D3F7DE50B56747F5CC28 /* Build configuration list for PBXNativeTarget "AMRippleButton" */;
+			buildPhases = (
+				8C493B35216B36B7A68A82F095187FAD /* Headers */,
+				4904AA3DA4BF5AC0BBEACD692813E77F /* Sources */,
+				7B86D997795CF6AC4130874498E0F61D /* Frameworks */,
+				2D1C24C7BCA114808C18ADAC636A6ED5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -275,45 +296,26 @@
 			);
 			name = AMRippleButton;
 			productName = AMRippleButton;
-			productReference = F5B569E9C3CEF9991177C47619656103 /* AMRippleButton.framework */;
+			productReference = E2A67F0FCA65992123730447E9F0BFA4 /* AMRippleButton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B51CBF12954C1A6DFDFB1258D38BEC74 /* Pods-AMRippleButton_Example */ = {
+		97F38634F8273669501EDE5C7EE52FA8 /* Pods-AMRippleButton_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A27ED162BFDF57E2E81B58D5B0FE03C /* Build configuration list for PBXNativeTarget "Pods-AMRippleButton_Example" */;
+			buildConfigurationList = AFF69623DD5CC1B1EF107CC1AA89E5D8 /* Build configuration list for PBXNativeTarget "Pods-AMRippleButton_Tests" */;
 			buildPhases = (
-				E1F9C5B6F5C21FCE91109C7E2DEFDD54 /* Headers */,
-				4FDC6666D81AD8F4627A5B0D62978853 /* Sources */,
-				EB195EB72A21E9CB5007FD27F85C9D25 /* Frameworks */,
-				D33D20574A80B2AF7F09C020DECAAB32 /* Resources */,
+				418BD6935D600BF7037AD6DE91468AEB /* Headers */,
+				DC2BF0ED78FA70938F6353D94A07E6EE /* Sources */,
+				0F381F0A8F5825AE3BBBB77190E1C3B0 /* Frameworks */,
+				F677753F2D519E14ACE5FDAE19B79173 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BF8A46C903129D681489B750114A51B8 /* PBXTargetDependency */,
-			);
-			name = "Pods-AMRippleButton_Example";
-			productName = "Pods-AMRippleButton_Example";
-			productReference = 8A879B488818E11A02E11B24CEFF66DB /* Pods_AMRippleButton_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D912E7D68EC5E10C807B3DB9BCD44C5A /* Pods-AMRippleButton_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F9A4EC62C8AFBD4ADB5344D047EB416D /* Build configuration list for PBXNativeTarget "Pods-AMRippleButton_Tests" */;
-			buildPhases = (
-				CAAA3848036CE37434F838BF3A917A78 /* Headers */,
-				C16DB3D3B6C44BD807E470DB71B0F79D /* Sources */,
-				7DD252BB93D7B3C696C4F886BC536206 /* Frameworks */,
-				DCEACB41F5686D097DDB84CE2B459BC4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6652156C7F4E2CB4AAD8CC7FAB9A7D61 /* PBXTargetDependency */,
+				D958E11F5397B39CF3E788400B655DF0 /* PBXTargetDependency */,
 			);
 			name = "Pods-AMRippleButton_Tests";
 			productName = "Pods-AMRippleButton_Tests";
-			productReference = 195B40FB87B78B920176A2D0AFD0216E /* Pods_AMRippleButton_Tests.framework */;
+			productReference = 5FF9858FE913905EB4C7C36A53C1DE35 /* Pods_AMRippleButton_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -322,13 +324,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1020;
-				TargetAttributes = {
-					45811E3B2BFBE23E757A3A3AD4696C4B = {
-						LastSwiftMigration = 1020;
-					};
-				};
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -343,29 +340,29 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				45811E3B2BFBE23E757A3A3AD4696C4B /* AMRippleButton */,
-				B51CBF12954C1A6DFDFB1258D38BEC74 /* Pods-AMRippleButton_Example */,
-				D912E7D68EC5E10C807B3DB9BCD44C5A /* Pods-AMRippleButton_Tests */,
+				858CF735BEFDA9FBD8B516F72685B615 /* AMRippleButton */,
+				2533FBD5F749647D598437B94E774D7F /* Pods-AMRippleButton_Example */,
+				97F38634F8273669501EDE5C7EE52FA8 /* Pods-AMRippleButton_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A6E2EB5644A271D7D4491D4C535ED0CA /* Resources */ = {
+		2D1C24C7BCA114808C18ADAC636A6ED5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D33D20574A80B2AF7F09C020DECAAB32 /* Resources */ = {
+		EDEDC6E153C6DE44DE7921950DC0A771 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCEACB41F5686D097DDB84CE2B459BC4 /* Resources */ = {
+		F677753F2D519E14ACE5FDAE19B79173 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -375,151 +372,56 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4FDC6666D81AD8F4627A5B0D62978853 /* Sources */ = {
+		4904AA3DA4BF5AC0BBEACD692813E77F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				295F23A73C52099E3E8185E3F92EAA6B /* Pods-AMRippleButton_Example-dummy.m in Sources */,
+				63685EF07D704026CA0B3B2634639A3F /* AMRippleButton-dummy.m in Sources */,
+				987BC3688DBBE993ED6EE7F330C7FA7F /* Ripplable.swift in Sources */,
+				54A69E9D92C7FC32259ECEFAE17D9C76 /* RippleButton.swift in Sources */,
+				FF1404A62FBBD71B3D25EB1BD69FF32F /* RippleLayer.swift in Sources */,
+				17D70ED99C05D1F82224AA41876541E3 /* UIView+Designable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7CE3AE6654CEF39907D0A8253686FF1E /* Sources */ = {
+		D3DA40E7961E713885922771A4206AE6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6248AB762D437473237C222AD5132F57 /* AMRippleButton-dummy.m in Sources */,
-				6321E15DB6FF5C133D2012B626E5CD0B /* Borderable.swift in Sources */,
-				F1C3154DD1A9B9E25FF187BD5A67940E /* Ripplable.swift in Sources */,
-				51C1E45D396E5E9715DDC6508DCF82A4 /* RippleButton.swift in Sources */,
-				CEAAC83E66868CD68C5A7D90838F298E /* RippleLayer.swift in Sources */,
+				0CC17B291E59934E4FF6EADC4DFDD4BB /* Pods-AMRippleButton_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C16DB3D3B6C44BD807E470DB71B0F79D /* Sources */ = {
+		DC2BF0ED78FA70938F6353D94A07E6EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				685484A2787D16774E076446809F4D61 /* Pods-AMRippleButton_Tests-dummy.m in Sources */,
+				3860E81A6FFF8C0BCC4C2F76AEF8231D /* Pods-AMRippleButton_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6652156C7F4E2CB4AAD8CC7FAB9A7D61 /* PBXTargetDependency */ = {
+		D958E11F5397B39CF3E788400B655DF0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-AMRippleButton_Example";
-			target = B51CBF12954C1A6DFDFB1258D38BEC74 /* Pods-AMRippleButton_Example */;
-			targetProxy = E37CBFBC4C3F0ACD8C2E35C1874C45E2 /* PBXContainerItemProxy */;
+			target = 2533FBD5F749647D598437B94E774D7F /* Pods-AMRippleButton_Example */;
+			targetProxy = DD6093C5FD9802E30D77CD4AD5A0AA47 /* PBXContainerItemProxy */;
 		};
-		BF8A46C903129D681489B750114A51B8 /* PBXTargetDependency */ = {
+		E02CB34C4887F95CDB2C0FE205D525E8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AMRippleButton;
-			target = 45811E3B2BFBE23E757A3A3AD4696C4B /* AMRippleButton */;
-			targetProxy = D5A4F242847349ACC9E09D314921F528 /* PBXContainerItemProxy */;
+			target = 858CF735BEFDA9FBD8B516F72685B615 /* AMRippleButton */;
+			targetProxy = 8767552380116C46C78FA9DE607673FE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0B70E762D8AE00206B26AC6AFD311E27 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8B9F8FA3C8D87896C7C517C12B2A26A /* Pods-AMRippleButton_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AMRippleButton_Example/Pods-AMRippleButton_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AMRippleButton_Example/Pods-AMRippleButton_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3048B0C5C704DFFF688DA57F5380ED58 /* Release */ = {
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		5B0C8287D755FD95091CF35D87FB8B2D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -575,14 +477,48 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		5D177F111C05B8EB26231A348BEC311F /* Release */ = {
+		5EDD892ACBCF24E9C8A937888168A3AF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B87604BC0B7B4032B5672E2D39D5CDA /* AMRippleButton.xcconfig */;
+			baseConfigurationReference = 9F21841A4EBE97B9C3C404014AA2127B /* Pods-AMRippleButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AMRippleButton_Tests/Pods-AMRippleButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AMRippleButton_Tests/Pods-AMRippleButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		72A89CD9A9D5FC0105F33BE6689B4ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58BC3E7F8773C57635BACBEEDB74B0D1 /* AMRippleButton.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -613,9 +549,9 @@
 			};
 			name = Release;
 		};
-		6957AE99FE1C04658DFD290C8B3734A0 /* Release */ = {
+		77B01FF6CAB9D9673049727F164B831A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06BE64CDFE7E629EE9387089CAB0946A /* Pods-AMRippleButton_Example.release.xcconfig */;
+			baseConfigurationReference = 2F5394AC0D405258ACBD15B009A73430 /* Pods-AMRippleButton_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -648,9 +584,135 @@
 			};
 			name = Release;
 		};
-		82FF581FE927F87CF95FCB71A3FAA053 /* Release */ = {
+		AAB2557DD4ECF99F96D70F35D65E6EE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D48916A7AD84AF099CACC131F78CDFD0 /* Pods-AMRippleButton_Tests.release.xcconfig */;
+			baseConfigurationReference = 0658B0EB650006E714FEE88C2FFB78BF /* Pods-AMRippleButton_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AMRippleButton_Example/Pods-AMRippleButton_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AMRippleButton_Example/Pods-AMRippleButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C7EAC16C1A281E222DBA01499FD43723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 175C049C5F0E27902C351B09131F63E7 /* AMRippleButton.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AMRippleButton/AMRippleButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMRippleButton/AMRippleButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AMRippleButton/AMRippleButton.modulemap";
+				PRODUCT_MODULE_NAME = AMRippleButton;
+				PRODUCT_NAME = AMRippleButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E0D348DD84FF3B6D17CDC3912AA5508E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88BD2205D5A54FBEE0EF1C6C13ADC18A /* Pods-AMRippleButton_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -683,107 +745,41 @@
 			};
 			name = Release;
 		};
-		9FAA56D9827955390D06CC2BA3328DA4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D54478F1B8E07A7C96B68AAF68F16E9 /* Pods-AMRippleButton_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AMRippleButton_Tests/Pods-AMRippleButton_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AMRippleButton_Tests/Pods-AMRippleButton_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FF85DEA71EEABD7F4AC3738EA076C7DF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B87604BC0B7B4032B5672E2D39D5CDA /* AMRippleButton.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AMRippleButton/AMRippleButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AMRippleButton/AMRippleButton-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AMRippleButton/AMRippleButton.modulemap";
-				PRODUCT_MODULE_NAME = AMRippleButton;
-				PRODUCT_NAME = AMRippleButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		248EA4E40281DBD58C0DC38E49E5580C /* Build configuration list for PBXNativeTarget "AMRippleButton" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FF85DEA71EEABD7F4AC3738EA076C7DF /* Debug */,
-				5D177F111C05B8EB26231A348BEC311F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B0C8287D755FD95091CF35D87FB8B2D /* Debug */,
-				3048B0C5C704DFFF688DA57F5380ED58 /* Release */,
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8A27ED162BFDF57E2E81B58D5B0FE03C /* Build configuration list for PBXNativeTarget "Pods-AMRippleButton_Example" */ = {
+		619301E58A39D3F7DE50B56747F5CC28 /* Build configuration list for PBXNativeTarget "AMRippleButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B70E762D8AE00206B26AC6AFD311E27 /* Debug */,
-				6957AE99FE1C04658DFD290C8B3734A0 /* Release */,
+				C7EAC16C1A281E222DBA01499FD43723 /* Debug */,
+				72A89CD9A9D5FC0105F33BE6689B4ADD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F9A4EC62C8AFBD4ADB5344D047EB416D /* Build configuration list for PBXNativeTarget "Pods-AMRippleButton_Tests" */ = {
+		80B8729C511F8416842F55512D827B8E /* Build configuration list for PBXNativeTarget "Pods-AMRippleButton_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9FAA56D9827955390D06CC2BA3328DA4 /* Debug */,
-				82FF581FE927F87CF95FCB71A3FAA053 /* Release */,
+				AAB2557DD4ECF99F96D70F35D65E6EE1 /* Debug */,
+				77B01FF6CAB9D9673049727F164B831A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFF69623DD5CC1B1EF107CC1AA89E5D8 /* Build configuration list for PBXNativeTarget "Pods-AMRippleButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EDD892ACBCF24E9C8A937888168A3AF /* Debug */,
+				E0D348DD84FF3B6D17CDC3912AA5508E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

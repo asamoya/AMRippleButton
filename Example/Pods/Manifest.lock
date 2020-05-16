@@ -1,5 +1,5 @@
 PODS:
-  - AMRippleButton (0.1.0)
+  - AMRippleButton (0.1.2)
 
 DEPENDENCIES:
   - AMRippleButton (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AMRippleButton: 757a1e177797712036c3ffbd1860336884b71bb1
+  AMRippleButton: f1e71f73952b231a3783627f7a4f73dc96c6527a
 
 PODFILE CHECKSUM: 43db6df25a53afb3b0b1aad179209d59664ff199
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.9.1

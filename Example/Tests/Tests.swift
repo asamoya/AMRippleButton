@@ -1,5 +1,5 @@
 import XCTest
-import AMRippleButton
+//import AMRippleButton
 
 class Tests: XCTestCase {
     

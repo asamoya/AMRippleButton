@@ -1,8 +1,8 @@
 {
   "name": "AMRippleButton",
-  "version": "0.1.0",
-  "summary": "Ripple effect button for iOS.",
-  "description": "Simple and easy, ripple effect button for iOS.\nYou can set border line and corner radius to the UIButton instance.\nNo swift-coding is required, because it's accessible from storyboard or xib.",
+  "version": "0.1.2",
+  "summary": "Ripple effect button for iOS written in Swift.",
+  "description": "Simple and easy, ripple effect button for iOS.\nWritten in Swift 5.0.\nYou can set border line and corner radius to the UIButton instance.\nNo swift-coding is required, because it's accessible from storyboard or xib.",
   "homepage": "https://github.com/asamoya/AMRippleButton",
   "license": {
     "type": "MIT",
@@ -13,11 +13,12 @@
   },
   "source": {
     "git": "https://github.com/asamoya/AMRippleButton.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "swift_version": "4.0",
-  "source_files": "AMRippleButton/Classes/**/*"
+  "swift_versions": "5.0",
+  "source_files": "AMRippleButton/Classes/**/*",
+  "swift_version": "5.0"
 }

@@ -7,10 +7,10 @@
 
 ## Screen Shot
 
-![Screen Record](/ScreenShots/screenrecord.gif)
+![Screen Record](/ScreenShots/screenshot.gif)
 
 
-## Example
+## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
@@ -32,14 +32,14 @@ pod 'AMRippleButton'
 ## Usage
 
 #### in case of Storyboard
-![how to use](/ScreenShots/tutorial.gif)
+how to use
 
 - First, make UIButton instance at your storyboard.
 - Then enter class name as "RippleButton" at Identity Inspector.
 - That's all.
 
-- Optionally, you can enter Ripple color, Border width, Border color and Corner radius at Attributes inspector.
-- Your button's tint color will be used as ripple color unless you  specify. 
+- Optionally, you can enter Ripple color and Corner radius at Attributes inspector.
+- Your button's tint color will be used as ripple color unless you specify. 
 
 #### in case of Swift coding
 
